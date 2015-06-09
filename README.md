@@ -1,1 +1,1 @@
-# Hello World!
+# Spare checkout test
