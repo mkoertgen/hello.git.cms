@@ -56,6 +56,12 @@ An experiment on using [git](https://git-scm.com/) as a minimal [configuration m
 		prodA> git add -A
 		git commit -m "Message"
 		git push origin master
+
+## Updating sparse-checkout
+
+After changing the file `sparse-checkout` update your working tree with
+
+	git read-tree -mu HEAD
  
 ## Links
 
